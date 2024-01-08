@@ -8,3 +8,5 @@ especial = st.punctuation
 algarismo = letras+numeros+especial
 senha = np.random.choice(list(algarismo),10) 
 print(''.join(senha))
+
+
